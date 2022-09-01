@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom";
 import MainHeader from "./components/MainHeader";
-import Product from "./pages/Product";
+import Products from "./pages/Products";
 import Welcome from "./pages/Welcome";
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
           <Welcome />
         </Route>
 
-        <Route path="/product">
-          <Product />
+        <Route path="/products">
+          <Products />
         </Route>
       </main>
     </div>

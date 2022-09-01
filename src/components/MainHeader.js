@@ -10,7 +10,7 @@ const MainHeader = () => {
           </li>
 
           <li>
-            <NavLink activeClassName={classes.active} to="/product">Product</NavLink>
+            <NavLink activeClassName={classes.active} to="/products">Products</NavLink>
           </li>
         </ul>
       </nav>
